@@ -1,9 +1,8 @@
-import * as Express from "express";
+const eee = require('express')
+const aaa = eee();
 
-const app = Express();
-
-app.get("/", (req, res) => {
-    res.send("Hello world");
+aaa.get("/", (rrr, sss) => {
+    sss.send("Hello world");
 });
 
-export { app };
+export { aaa };
